@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Color */
+:root{
+    --bg-color: #e7e6e6;
+    --main-color: #ff9b51;
+    --text-color: #ffffff;
+    --black-text: #000000;
+}
+#header{
+    background-image: url(../images/bg-img.png);
+    min-height: 100vh;
+    min-width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#header .navbar .navbar-toggler{
+    box-shadow: none;
+    border: none;
+}
+#header .navbar .nav-item .nav-link{
+    color: var(--text-color);
+    margin: 0.5rem 1rem;
+    font-size: 1.2rem;
+}
+#header .navbar .nav-item .nav-link:hover{
+    color: var(--main-color);
+}
+#header .navbar .nav-item .active{
+    color: var(--main-color);
+}
+.home{
+    padding: 10rem;
+}
+.home .banner-left h1{
+    color: var(--text-color);
+    font-size: 6rem;
+}
+.home .banner-left span{
+    color: var(--main-color);
+    font-weight: 200;
+}
+.home .banner-left h2{
+    color: var(--text-color);
+    font-size: 40px;
+    font-weight: 300;
+}
+.home .banner-left p{
+    color: var(--text-color);
+    font-weight: 200;
+    font-size: 18px;
+}
+.home .banner-right{
+    width: 450px;
+}
+.home .banner-right h2{
+    background: var(--bg-color);
+    text-align: center;
+    padding: 10px;
+}
+.home .banner-right span{
+    color: var(--main-color);
+    font-weight: 700;
+}
+.home .banner-right .banner-form{
+    background: var(--text-color);
+    padding: 2.5rem;
+}
+.home .banner-right input{
+    border: none;
+    border-bottom: 1px solid var(--black-text);
+    padding: 10px;
+    margin: 8px 0;
+    width: 100%;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.home .banner-right input:hover{
+    border-bottom: 1px solid var(--main-color);
+}
+.home .banner-right .btn{
+    background: var(--main-color);
+    width: 100%;
+    border-radius: 0;
+    font-size: 25px;
+    color: var(--text-color);
+    padding: 10px;
+}
+.home .banner-right .btn:hover{
+    opacity: .9;
+    transition: .7s;
+}
+#social{
+    background: var(--bg-color);
+    padding: 1.5rem;
+}
+.social .social-text h1{
+    color: var(--black-text);
+    font-size: 3rem;
+}
+.social .social-text p{
+    color: var(--black-text);
+}
+.social .social-icon i{
+    font-size: 60px;
+    margin: 0 30px;
+    opacity: .8;
+}
+.social .social-icon .fa-facebook:hover{
+    color:#1877F2;
+    transition: .5s all;
+}
+.social .social-icon .fa-twitter:hover{
+    color:#1DA1F2;
+    transition: .5s all;
+}
+.social .social-icon .fa-whatsapp:hover{
+    color:#25D366;
+    transition: .5s all;
+}
+.social .social-icon .fa-google:hover{
+    color: #F4B400;
+    transition: .5s all;
+}
+.social .social-icon .fa-instagram:hover{
+    color:#E4405F;
+    transition: .5s all;
+}
+#tab{
+    background-color: var(--text-color);
+    min-height: 70vh;
+    min-width: 100%;
+    padding: 10rem;
+}
+.tab .button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tab .button .btn-box{
+    margin: 1px;
+    background: var(--black-text);
+    color: var(--text-color);
+    border-radius: 0;
+    padding: 2.5rem 0;
+    width: 7rem;
+    height: 7rem;
+    font-size: 20px;
+
+}
+.tab .button .btn-active{
+    background: var(--main-color);
+    color: var(--text-color);
+    transition: 0.5s;
+}
+.tab .button .btn-box:hover{
+    background: var(--main-color);
+    color: var(--text-color);
+    transition: 0.5s;
+}
